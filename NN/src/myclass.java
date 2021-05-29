@@ -1,5 +1,1 @@
-public class myclass {
-    public static void main(String[] args) {
-        System.out.println("naaaaber");
-    }
-}
+GİT MİT BOŞ İŞLER HARBİ YORDU
