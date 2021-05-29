@@ -4,7 +4,7 @@ import java.io.*;
 public class DNC_GetCity {
 
         public static void CityCaller() throws IOException {
-
+//of
 
             BufferedReader Cities = new BufferedReader(new FileReader("C:\\Users\\mehme\\IdeaProjects\\TSP-DNC\\ca4663.txt"));
             LineNumberReader lineReader = new LineNumberReader(Cities);
