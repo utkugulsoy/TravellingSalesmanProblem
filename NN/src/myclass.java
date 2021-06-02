@@ -1,1 +1,0 @@
-GİT MİT BOŞ İŞLER HARBİ YORDU
