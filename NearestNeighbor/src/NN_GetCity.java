@@ -2,8 +2,8 @@ import java.io.*;
 
 
 public class NN_GetCity {
-    public static double[][] locationMatrix;
-    public static void CityCaller() throws IOException {
+    public  double[][] locationMatrix;
+    public  void CityCaller() throws IOException {
 
 
         BufferedReader Cities = new BufferedReader(new FileReader(System.getProperty("user.dir")+"/ca4663.txt"));
@@ -21,11 +21,11 @@ public class NN_GetCity {
             row++;
         }
         Cities.close();
-        System.out.println(row);
+
 
 
         locationMatrix =new double[row-8][col];
-        System.out.println(locationMatrix.length);
+
         row=0;
 
         while ((C = lineReader2.readLine()) != null){
@@ -49,13 +49,13 @@ public class NN_GetCity {
         }
         Cities2.close();
 
-        for (double[] matrix : locationMatrix) {
+        /*for (double[] matrix : locationMatrix) {
             System.out.print(matrix[0]);
             System.out.print("  ");
             System.out.print(matrix[1]);
             System.out.println();
 
-        }
+        }*/
 
 
     }
